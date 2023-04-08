@@ -131,7 +131,6 @@ margin-left: auto;
     top: 0;
     left: 0;
     padding: 80px 35px 40px 40px;
-    display: flex;
         flex-direction: column;
         justify-content: space-between;
         overflow-y: scroll;
@@ -213,7 +212,7 @@ font-weight: 500;
 }
 
 .is-open {
-    display: block;
+    display: flex;
 }
 /* ------------------- HERO */
 
