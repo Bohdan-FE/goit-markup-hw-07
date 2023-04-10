@@ -262,8 +262,9 @@ header {
   text-transform: capitalize;
   color: var(--white-color);
   margin-bottom: 72px;
-  margin-right: 24px;
-  margin-left: 24px;
+  width: 320px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .hero-btn {
@@ -276,9 +277,6 @@ header {
   background-color: var(--primary-brand-color);
   min-width: 169px;
   height: 56px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   margin: 0 auto;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -396,11 +394,6 @@ header {
   align-items: center;
   row-gap: 72px;
   column-gap: 16px;
-  max-width: 428px;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .customers-icon-item {
@@ -790,8 +783,8 @@ label[for='comment'] {
   }
 
   .nav-container {
-    padding-bottom: 16px;
-    padding-top: 16px;
+    padding-bottom: 11px;
+    padding-top: 11px;
   }
 
   .nav-menu-btn {
@@ -837,14 +830,13 @@ label[for='comment'] {
     border-radius: 2px;
     background-color: var(--prassed-state-color);
     position: absolute;
-    top: 52px;
+    top: 42px;
   }
 
   .address-list {
     flex-direction: column;
-    margin-left: auto;
     margin-bottom: 0;
-    gap: 12px;
+    gap: 2px;
   }
 
   .address-link {
@@ -875,8 +867,8 @@ label[for='comment'] {
   .hero-heading {
     font-size: 56px;
     line-height: 1.07;
-    letter-spacing: 0.02em;
     margin-bottom: 48px;
+    width: 496px;
   }
 
   .hero {
@@ -927,6 +919,8 @@ label[for='comment'] {
     row-gap: 72px;
     column-gap: 24px;
     max-width: 582px;
+    margin-right: auto;
+      margin-left: auto;
   }
 
   .customers-icon-item {
@@ -1005,10 +999,6 @@ label[for='comment'] {
   .address-link.telephone {
     font-size: 16px;
     line-height: 1.5;
-  }
-
-  .active-nav-link::after {
-    top: 43px;
   }
 
   .hero.section {
